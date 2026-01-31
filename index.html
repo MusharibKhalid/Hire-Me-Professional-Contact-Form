@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hire Me | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="contact-section">
+  <div class="contact-card">
+    <h2>Let’s Work Together</h2>
+    <p>Have a project in mind? Let’s talk.</p>
+
+    <form action="https://formspree.io/f/xxxxxxx" method="POST" id="contactForm">
+      <div class="input-group">
+        <input type="text" name="name" required>
+        <label>Your Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" name="email" required>
+        <label>Email Address</label>
+      </div>
+
+      <div class="input-group">
+        <textarea name="message" rows="4" required></textarea>
+        <label>Project Details</label>
+      </div>
+
+      <button type="submit">Send Message</button>
+      <span id="status"></span>
+    </form>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
